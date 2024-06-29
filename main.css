@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 header {
   background-color: #333;
@@ -30,6 +30,30 @@ main {
   padding: 20px;
   margin: 15px;
   background-color: white;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  text-align: center;
+}
+heroimg {
+  padding: 20px;
+  margin: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  text-align: center;
+}
+.Profilephoto {
+  max-width: 100%;
+  height: auto;
+  margin: 20px; /* Adds space between the image and the text */
+  width: 350px;
+  border-radius: 25px;
+  display: inline;
 }
 main a {
   text-decoration: none;
@@ -49,4 +73,7 @@ footer {
 }
 .aboutText {
   display: inline;
+}
+.aboutme {
+  width: 800px;
 }
