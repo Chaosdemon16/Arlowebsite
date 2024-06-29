@@ -75,7 +75,7 @@ footer {
   display: inline;
 }
 .aboutme {
-  width: 800px;
+  max-width: 100vh;
   font-size: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
