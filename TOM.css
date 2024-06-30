@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  padding-bottom: 60px;
+}
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+}
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+main {
+  padding: 20px;
+  margin: 15px;
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  text-align: left;
+}
+heroimg {
+  padding: 20px;
+  margin: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  text-align: center;
+}
+.Profilephoto {
+  max-width: 100%;
+  height: auto;
+  margin: 20px; /* Adds space between the image and the text */
+  width: 350px;
+  border-radius: 25px;
+  display: inline;
+}
+main a {
+  text-decoration: none;
+  color: black;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.aboutPhoto {
+  Width: 500px;
+}
+.aboutText {
+  display: inline;
+}
+.aboutme {
+  max-width: 100vh;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+fineprint {
+  font-size: 10px;
+}
